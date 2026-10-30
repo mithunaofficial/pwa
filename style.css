@@ -1,0 +1,82 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+}
+
+.login-container,
+.home-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #1d4ed8;
+    text-align: center;
+}
+
+h2, h3 {
+    color: #1e40af;
+}
+
+p {
+    color: #64748b;
+    line-height: 1.6;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 14px;
+    color: white;
+    background: #2563eb;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.dashboard-card {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #eff6ff;
+}
+
+#message {
+    text-align: center;
+    overflow-wrap: anywhere;
+}
